@@ -1,0 +1,43 @@
+/*////////////////
+//
+// Filename: sources.css
+// Author: Daniel Long
+// Course: ICS4U1
+// Description: Contains the relevant css for the sources page
+//
+////////////////*/
+
+/* Classes */
+.source-title {
+  color: white;
+  font-family: "Montserrat Medium";
+  font-size: 20px;
+  margin: 15px 0 0 0;
+  opacity: 0;
+  transition: 1s;
+}
+
+.source {
+  text-decoration: none;
+  color: rgb(200, 200, 200);
+  font-family: "Montserrat";
+  font-size: 15px;
+  margin: 14.5px;
+  line-height: 23px;
+  transition: 1s;
+  opacity: 0;
+}
+
+.source:hover {
+  color: #ffffff;
+}
+
+/* IDs */
+#title {
+  color: white;
+  font-family: "Montserrat Medium";
+  font-size: 27px;
+  margin: 40px 20px 20px 20px;
+  opacity: 0;
+  transition: 1s;
+}

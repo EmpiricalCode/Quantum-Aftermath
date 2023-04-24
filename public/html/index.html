@@ -1,0 +1,270 @@
+<!-- ///////////////////
+     // 
+     // Filename: index.html
+     // Author: Daniel Long 
+     // Course: ICS4U1
+     // Description: Contains the html for the main page 
+     // 
+     /////////////////// -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Quantum Aftermath</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="images/x-icon" href="../assets/images/favicon.ico">
+
+    <!-- CSS files -->
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/index.css">
+  </head>
+  
+  <body>
+    <!--   Contains all the content of the webpage in a 1000px side centered div element just so I don't have to worry about content scaling   -->
+    <div id="content-container">
+      
+      <!--    Contains all the "scrollbar" content (lines, icons)    -->
+      <div id="column-container">
+        <div class="column-line-frame" style='height: 200px; width: 2px'>
+          <div class="column-line fade-out-bottom introduction-section" style='height: 0px; width: 2px' data-animation-delay="1000" data-animation-type="expand"></div>
+        </div>
+        
+        <img src="../assets/images/atom.png" class="column-line-icon introduction-section" data-animation-delay="1500" data-animation-type="fade-in-left">
+        
+        <div class="column-line-frame" style='height: 400px; width: 2px'>
+          <div class="column-line fade-out introduction-section-2" style="height: 0px; width: 2px" data-animation-delay="100" data-animation-type="expand"></div>
+        </div>
+        
+        <div class="column-line-frame" style='margin-top: 250px; height: 500px; width: 2px'>
+          <div class="column-line fade-out asymmetric-encryption-section" style="height: 0px; width: 2px" data-animation-delay="100" data-animation-type="expand"></div>
+        </div>
+        
+        <img src="../assets/images/lock.png" class="column-line-icon asymmetric-encryption-section" data-animation-delay="600" data-animation-type="fade-in-left">
+        
+        <div class="column-line-frame" style='height: 250px; width: 2px'>
+          <div class="column-line fade-out asymmetric-encryption-section" style="height: 0px; width: 2px" data-animation-delay="900" data-animation-type="expand"></div>
+        </div>
+        
+        <div class="column-line-frame" style='margin-top: 320px; height: 490px; width: 2px'>
+          <div class="column-line fade-out-top rsa-encryption-section" style="height: 0px; width: 2px" data-animation-delay="100" data-animation-type="expand"></div>
+        </div>
+        
+        <div class="column-line-point rsa-encryption-section" data-animation-delay="1000" data-animation-type="fade-in"></div>
+        
+         <div class="column-line-frame" style='height: 200px; width: 2px'>
+          <div class="column-line fade-out-bottom quantum-computing-section" style="height: 0px; width: 2px" data-animation-delay="100" data-animation-type="expand"></div>
+        </div>
+        
+        <img src="../assets/images/question-mark.png" class="column-line-icon quantum-computing-section" style="filter: brightness(5000%);" data-animation-delay="600" data-animation-type="fade-in-left">
+        
+        <div class="column-line-frame" style='height: 500px; width: 2px'>
+          <div class="column-line fade-out quantum-computing-problems-section" style="height: 0px; width: 2px" data-animation-delay="100" data-animation-type="expand"></div>
+        </div>
+        
+        <img src="../assets/images/warning.png" class="column-line-icon quantum-computing-problems-section" style="filter: brightness(5000%);" data-animation-delay="600" data-animation-type="fade-in-left">
+
+        <div class="column-line-frame" style='height: 150px; width: 2px'>
+          <div class="column-line fade-out-top quantum-computing-problems-section" style="height: 0px; width: 2px" data-animation-delay="1000" data-animation-type="expand"></div>
+        </div>
+
+        <div class="column-line-point quantum-computing-problems-section" data-animation-delay="2000" data-animation-type="fade-in"></div>
+
+        <div class="column-line-frame" style='height: 750px; width: 2px'>
+          <div class="column-line fade-out-bottom quantum-computing-solutions-section" style="height: 0px; width: 2px" data-animation-delay="100" data-animation-type="expand"></div>
+        </div>
+
+        <img src="../assets/images/lightbulb.png" class="column-line-icon quantum-computing-solutions-section" data-animation-delay="600" data-animation-type="fade-in-left">
+
+         <div class="column-line-frame" style='height: 100px; width: 2px'>
+          <div class="column-line fade-out-top quantum-computing-solutions-section" style="height: 0px; width: 2px" data-animation-delay="1000" data-animation-type="expand"></div>
+        </div>
+
+        <div class="column-line-frame" style='margin-top: 340px; height: 450px; width: 2px'>
+          <div class="column-line fade-out-top quantum-computing-solutions-section-2" style="height: 0px; width: 2px" data-animation-delay="100" data-animation-type="expand"></div>
+        </div>
+
+        <div class="column-line-point quantum-computing-solutions-section-2" data-animation-delay="1000" data-animation-type="fade-in"></div>
+      </div>
+        
+      <!--    Contains the main bulk of the webpage and its information (images, paragraphs, etc)    -->
+      <div id="info-container">
+
+        <!--     Title section     -->
+        <p style="margin-top: 185px; margin-bottom: -10px;" class="gold-text-gradient-side introduction-section title" data-animation-delay="1800" data-animation-type="fade-in-left">
+          The Quantum Aftermath
+        </p>
+        <p style="line-height: 30px;" class="introduction-section subtitle" data-animation-delay="1900" data-animation-type="fade-in-left">
+          What is Quantum Computing, and how will it affect modern day cryptography?
+        </p>
+        
+        <img id="quantum-effect" style="margin-left: 130px;" src="../assets/images/quantum-effect.gif" class="introduction-section" data-animation-delay="2100" data-animation-type="fade-in-right">
+
+        <!--     Introduction section     -->
+        <div id="introduction-slides-container">
+          <div class="introduction-slide introduction-section-2" style="margin-top: 140px;" data-animation-delay="600" data-animation-type="fade-in-left">
+            <p class="slide-title red-text-gradient">The first steps have already been made.</p>
+            <p class="slide-subtitle" >Companies such as IBM and Google have already made working prototypes of these devices.</p>
+          </div>
+          <div class="introduction-slide introduction-section-2" style="margin-left: 550px; margin-top: -350px;" data-animation-delay="800" data-animation-type="fade-in-right">
+            <p class="slide-title blue-text-gradient">Quantum speed ups may end certain forms of encryption.</p>
+            <p class="slide-subtitle" >Quantum Computers happen to specialize in certain operations that may render many current encryption algorithms useless.</p>
+          </div>
+        </div>
+
+        <img id="quantum-computer-schematic" class="introduction-section-2" style="margin-left: -50px" src="../assets/images/quantum-computer-schematic.png" data-animation-delay="1200" data-animation-type="fade-in">
+        
+        <p style="margin-top: -20px; margin-bottom: -10px;" class="asymmetric-encryption-section heading" data-animation-delay="700" data-animation-type="fade-in-left">Asymmetric Encryption</p>
+        <p style="margin-bottom: 50px; width: 600px;" class="asymmetric-encryption-section subheading" data-animation-delay="900" data-animation-type="fade-in-left">
+          In asymmetric encryption, each user has their own unique public and private keys. These two keys are mathematically related such that data encrypted using the public key can only be decrypted using the private key, and vice versa.
+        </p>
+          
+        <!--    Asymmetric encryption information      -->
+        <div id="key-display-container" class="asymmetric-encryption-section" style="opacity: 0" data-animation-delay="800" data-animation-type="fade-in-right">
+          <img class="asymmetric-display-icon asymmetric-encryption-section" src="../assets/images/file.png" data-animation-delay="900" data-animation-type="fade-in">
+          <img class="asymmetric-display-icon asymmetric-encryption-section" src="../assets/images/arrow.png" data-animation-delay="1000" data-animation-type="fade-in">
+          <img class="asymmetric-display-icon asymmetric-encryption-section" src="../assets/images/key.png" style="filter: hue-rotate(45deg) brightness(400%);" data-animation-delay="1100" data-animation-type="fade-in">
+          <img class="asymmetric-display-icon asymmetric-encryption-section" src="../assets/images/arrow.png" data-animation-delay="1200" data-animation-type="fade-in">
+          <img class="asymmetric-display-icon asymmetric-encryption-section" src="../assets/images/locked-file.png" data-animation-delay="1300" data-animation-type="fade-in">
+          <img class="asymmetric-display-icon asymmetric-encryption-section" src="../assets/images/arrow.png" data-animation-delay="1400" data-animation-type="fade-in">
+          <img class="asymmetric-display-icon asymmetric-encryption-section" src="../assets/images/key.png" style="filter: hue-rotate(135deg) brightness(400%);" data-animation-delay="1500" data-animation-type="fade-in">
+          <img class="asymmetric-display-icon asymmetric-encryption-section" src="../assets/images/arrow.png" data-animation-delay="1600" data-animation-type="fade-in">
+          <img class="asymmetric-display-icon asymmetric-encryption-section" src="../assets/images/file.png" data-animation-delay="1700" data-animation-type="fade-in">
+        </div>
+
+        <img id="globe" class="asymmetric-encryption-section" src="../assets/images/globe.png" data-animation-delay="1300" data-animation-type="fade-in-right">
+        <div id="secure-messages-info-container" style="margin-left: -100px;" class="asymmetric-encryption-section" data-animation-delay="1000" data-animation-type="fade-in-left">
+          <div style="border-bottom: 1px solid #333333;">
+            <p class="slide-title gold-text-gradient" >Enables secure communication over the internet.</p>
+            <p class="slide-subtitle">In order to send a secure message from one user to another, data is encrypted using the other user’s public key. This makes sure that the only other person who can decrypt this data is the other user.
+            </p>
+          </div>
+          <div>
+            <p class="slide-subtitle">
+              This method can be improved even further by encrypting the data with the sender’s private key and receiver’s public key. This way, the receiver can make sure the message came from the sender, and the sender can make sure the receiver is the only party which can see the message’s contents.
+            </p>
+          </div>
+          </p>
+        </div>
+
+        <!--    RSA encryption information      -->
+        <div id="number-line-container" style="margin-top: 430px;">
+          <p class="number-line blue-text-gradient-side rsa-encryption-section" data-animation-delay="1000" data-animation-type="fade-in-right">10010101001010</p>
+          <p class="number-line blue-text-gradient-side rsa-encryption-section" data-animation-delay="1100" data-animation-type="fade-in-right">1001001010</p>
+          <p class="number-line blue-text-gradient-side rsa-encryption-section" data-animation-delay="1200" data-animation-type="fade-in-right">1100100</p>
+          <p class="number-line blue-text-gradient-side rsa-encryption-section" data-animation-delay="1300" data-animation-type="fade-in-right">1001010010101</p>
+        </div>
+
+        <div id="rsa-info-container" style="margin-left: 250px;" class="rsa-encryption-section" data-animation-delay="600" data-animation-type="fade-in-right">
+          <p class="slide-title blue-text-gradient">RSA encryption relies on prime numbers.</p>
+          <p class="slide-subtitle">
+            RSA is one of the most fundamental modern day asymmetric encryption algorithms. In order to generate public and private keys, two very large prime numbers are multiplied to find their product.
+  By factoring this huge product to find the two prime numbers, it is actually possible to derive a private key from a public key. However, this process is extremely time consuming, even using the best modern computers and algorithms.
+          </p>
+        </div>
+
+        <div id="rsa-factorization-time-container" style="margin-left: -40px;">
+          <p class="super-title red-text-gradient rsa-encryption-section" style="display: inline; position: relative; left: 140px;" data-animation-delay="700" data-animation-type="fade-in-right">300</p>
+          <p class="super-title red-text-gradient rsa-encryption-section" style="display: inline; position: relative; left: 170px;" data-animation-delay="900" data-animation-type="fade-in-right" style="">Trillion</p>
+          <p class="super-title red-text-gradient rsa-encryption-section" style="display: inline; position: relative; left: 200px;" data-animation-delay="1100" data-animation-type="fade-in-right">Years.</p>
+          <p class="slide-subtitle rsa-encryption-section" style="margin-left: calc(50% - 350px); width: 700px; text-align: center; opacity: 0;" data-animation-delay="1500" data-animation-type="fade-in">For a 2048 bit RSA key, an estimate says it would take 300 trillion years of computing time in order to break it with current day technology. However, this could change very soon.</p>
+        </div>
+
+        <!--     Quantum computing information     -->
+        <p style="margin-top: 100px; margin-bottom: -10px;" class="quantum-computing-section heading" data-animation-delay="700" data-animation-type="fade-in-left">
+          How Does Quantum Computing Tie Into All Of This?
+        </p>
+        
+        <p style="margin-bottom: 50px; line-height: 25px;" class="quantum-computing-section subheading" data-animation-delay="900" data-animation-type="fade-in-left">
+          To answer this question, let us first dive into how they work. Qubits are the crux of quantum computers. Unlike regular bits, which can only hold either a value of 1 or 0, qubits can enter a state of superposition, where they are 0 and 1 at the same time. Qubits allow quantum computers to vastly speed up their calculations by being able to store multiple states at once. For example, 2 qubits would be able to store 4 states at once, and therefore do 4 calculations in one go.
+        </p>
+
+        <div id="qubit-container" style="margin-left: -10px;">
+          <div id="qubit-red" class="quantum-computing-section" data-animation-delay="1000" data-animation-type="fade-in-left">1</div>
+          <div id="qubit-blue" class="quantum-computing-section" data-animation-delay="1200" data-animation-type="fade-in-right">0</div>
+        </div>
+        
+        <div id="quantum-computing-info-container" style="margin-left: 250px;" class="quantum-computing-section" data-animation-delay="900" data-animation-type="fade-in-left">
+          <p class="slide-title gold-text-gradient">Quantum computers are not supercomputers.</p>
+          <p class="slide-subtitle">
+            As powerful as these speedups may sound, quantum computers are not literally faster computers. The capabilities of near-future quantum computers are limited in that they are really only more efficient in certain operations, such as factoring. However, if you've been paying attention thus far, this could mean disaster for cryptography as we know it today.
+          </p>
+        </div>
+
+        <p style="margin-top: 50px; margin-bottom: -10px;" class="quantum-computing-problems-section heading" data-animation-delay="700" data-animation-type="fade-in-left">
+          The Problem 
+        </p>
+        <p style="margin-bottom: 50px; line-height: 25px;" class="quantum-computing-problems-section subheading" data-animation-delay="900" data-animation-type="fade-in-left">
+          Quantum computers are able to very efficiently implement Shor’s algorithm, an algorithm for finding the prime factors of an integer. This directly threatens not just RSA, but the many asymmetric encryption algorithms today that rely on the fact that finding the prime factors of a very large semiprime is nigh-impossible. Worryingly, some of these algorithms are very much still in use.
+        </p>
+
+        <div id="quantum-computing-problem1-container" class="quantum-computing-problems-section" data-animation-delay="1100" data-animation-type="fade-in-left">
+          <p class="slide-title red-text-gradient">The end of online security?</p>
+          <p class="slide-subtitle">
+            The same RSA-2048 algorithm that boasted a 300 trillion year breaking time on a classical computer would be steamrolled by a quantum computer with just 4099 stable qubits in around 10 seconds. Due to the prevalence of asymmetric encryption over the internet, hackers and other malicious parties would have unprecidented access to your sensitive online information. 
+          </p>
+        </div>
+
+        <img src="../assets/images/clock.png" id="clock" style="margin-left: -100px;" class="quantum-computing-problems-section-2" data-animation-delay="300" data-animation-type="fade-in-left"></img>
+
+        <div id="quantum-computing-problem2-container" style="margin-left: 250px;" class="quantum-computing-problems-section-2" data-animation-delay="100" data-animation-type="fade-in-right">
+          <p class="slide-title blue-text-gradient">Store now, decrypt later.</p>
+          <div style="border-bottom: 1px solid #333333;">
+            <p class="slide-subtitle">
+              Perhaps the most worrying consequence of quantum computers is the possibility of a “store now decrypt later” attack. In anticipation of the inception of quantum computers strong enough to finally break encryption, some hackers have been storing vast amounts of encrypted data with the hopes that this data will still be valuable by the time they are able to decrypt it using quantum computers.
+            </p>
+          </div>
+          <div>
+            <p class="slide-subtitle">This issue is especially pressing because, even if all current encryption were to be made quantum-proof instantly, the data encrypted using quantum-unsafe algorithms stored by hackers could still be decrypted later and still be  valuable.
+            </p>
+          </div>
+        </div>
+
+        <p style="margin-top: 80px; margin-bottom: -10px;" class="quantum-computing-solutions-section heading" data-animation-delay="700" data-animation-type="fade-in-left">
+          The Solutions 
+        </p>
+        <p style="margin-bottom: 50px; line-height: 25px;" class="quantum-computing-solutions-section subheading" data-animation-delay="900" data-animation-type="fade-in-left">
+          What can we do to mitigate this threat?
+        </p>
+
+        <img id="padlock" class="quantum-computing-solutions-section" style="margin-left: 500px;" src="../assets/images/padlock.png" data-animation-delay="1300" data-animation-type="fade-in-right">
+
+        <div id="quantum-computing-solution1-container" style="margin-left: -100px;" class="quantum-computing-solutions-section" data-animation-delay="1100" data-animation-type="fade-in-left">
+          <p class="slide-title gold-text-gradient">Up the security.</p>
+          <div style="border-bottom: 1px solid #333333;">
+            <p class="slide-subtitle">
+              Some algorithms are actually already resistant to quantum computers, mainly symmetric encryption algorithms such as AES. While these are still impacted by quantum algorithms such as Grover’s algorithm, which reduces a brute force search from taking n steps to just sqrt(n) steps, solving this problem is quite straightforward. 
+            </p>
+          </div>
+          <div>
+            <p class="slide-subtitle">With a 128 bit symmetric key, grover’s algorithm would effectively reduce it to having the same protection as a 64 bit key (from 2^128 brute force iterations to 2^64). Therefore, by doubling the 128 bit key to a 256 bit key, the 256 bit key would provide the same amount of protection against a quantum computer as a 128 bit key would provide against a classical computer.
+            </p>
+          </div>
+        </div>
+
+        <div id="quantum-computing-solution2-container" style="margin-left: 100px;" class="quantum-computing-solutions-section-2" data-animation-delay="300" data-animation-type="fade-in-right">
+          <p class="slide-title red-text-gradient">Quantum Cryptography.</p>
+          <p class="slide-subtitle">
+            Alongside post-quantum cryptography, or using encryption algorithms that are resistant to quantum computers, another option is to use the very nature of quantum computing against itself. In quantum cryptography, polarized photons are sent through a fiber optic cable, which carry data. If a malicious third party were to attempt to intercept these photons and observe them, the receiver would be notified since the quantum state of the photons would be changed, and the key passed along in this photon data stream could then be discarded.
+          </p>
+        </div>
+        
+        <img id="quantum-cryptography-infographic" style="margin-left: calc(50% - 225px);" src="../assets/images/quantum-cryptography-infographic.jpg" class="quantum-computing-solutions-section-2" data-animation-delay="500" data-animation-type="fade-in-left">
+
+        <!-- Footer menu -->
+        <div id="footer-container" class="quantum-computing-solutions-section-2" data-animation-delay="700" data-animation-type="fade-in">
+          <a class="footer-button" href="/future">THE FUTURE</a>
+          <a class="footer-button" href="/sources">SOURCES</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll to top button -->
+    <div id="scroll-to-top-container" style="opacity: 0;" class="introduction-section-2" onclick="scrollToTop();" data-animation-delay="2000" data-animation-type="fade-in">Take Me To The Top</div>
+
+    <!-- Javascript files -->
+    <script src="../js/index.js"></script>
+    <script src="../js/animationHandler.js"></script>
+  </body>
+</html>

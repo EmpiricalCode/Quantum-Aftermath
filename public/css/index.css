@@ -1,0 +1,380 @@
+/*////////////////
+//
+// Filename: index.css
+// Author: Daniel Long
+// Course: ICS4U1
+// Description: Contains the relevant css for the main page
+//
+////////////////*/
+
+/* Elements */
+p, div {
+  font-family: "Montserrat";
+  transition: 1s;
+}
+
+img {
+  transition: 1s;
+}
+
+/* Classes */
+.number-line {
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: right;
+  opacity: 0;
+}
+
+.slide-title {
+  color: white;
+  font-family: "Montserrat Medium";
+  font-size: 27px;
+  margin: 40px 20px 20px 20px;
+}
+
+.slide-subtitle {
+  color: rgb(200, 200, 200);
+  font-size: 15px;
+  margin: 20px;
+  line-height: 23px;
+}
+
+.super-title {
+  color: white;
+  font-family: 'Montserrat Light'; 
+  font-size: 70px; 
+  margin: 40px 20px 20px 20px;
+  opacity: 0;
+}
+
+.title {
+  font-size: 70px;
+  color: white;
+  opacity: 0;
+}
+
+.subtitle {
+  font-size: 25px;
+  color: rgb(200, 200, 200);
+  opacity: 0;
+}
+
+.heading {
+  font-size: 30px;
+  color: white;
+  opacity: 0;
+}
+
+.subheading {
+  font-size: 17px;
+  line-height: 25px;
+  color: rgb(200, 200, 200);
+  opacity: 0;
+}
+
+.fade-out-bottom {
+  background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) calc(100% - 100px), rgba(31,31,31,0) 100%);
+}
+
+.fade-out-top {
+  background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(31,31,31,1) 0%, rgba(255,255,255,1) 100px, rgba(255,255,255,1) calc(100% - 100px), rgba(255,255,255,1) 100%);
+}
+
+.fade-out {
+  background: rgb(31,31,31);
+background: linear-gradient(180deg, rgba(31,31,31,0) 0%, rgba(255,255,255,1) 100px, rgba(255,255,255,1) calc(100% - 100px), rgba(31,31,31,0) 100%);
+}
+
+.column-line-point {
+  width: 10px;
+  height: 10px;
+  border-radius: 15px;
+  background:  white;
+  margin-left: 15px;
+  opacity: 0;
+}
+
+.column-line {
+  border-radius: 0 0 1px 1px;
+  margin-left: 19px;
+}
+
+.column-line-icon {
+  margin-top: 10px; 
+  margin-bottom: 10px;
+  filter: brightness(5000%);
+  transition: 1s;
+  width: 40px;
+  height: 40px;
+  opacity: 0;
+}
+
+.introduction-slide {
+  border-radius: 5px;
+  background: #171717;
+  border: 1px solid #333333;
+  width: 450px;
+  height: 250px;
+  opacity: 0;
+}
+
+.asymmetric-display-icon {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  filter: brightness(5000%);
+  opacity: 0;
+  transition: 1s;
+}
+
+/* IDs */
+#scroll-to-top-container {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  color: #bababa;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #bababa;
+}
+
+#scroll-to-top-container:hover {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+}
+
+#info-container {
+  display: flex;
+  flex-grow: 1;
+  margin-left: 25px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  color: white;
+}
+
+#number-line-container {
+  text-align: right;
+  position: relative;
+  top: -420px;
+  left: 0px;
+  z-index: -1;
+}
+
+#padlock {
+  margin-top: -130px;
+  width: 300px;
+  height: 300px;
+  opacity: 0;
+  z-index: -1;
+}
+
+#clock {
+  opacity: 0;
+  z-index: -1;
+}
+
+#globe {
+  position: relative;
+  left: 440px;
+  top: -100px;
+  z-index: -10;
+  filter: hue-rotate(200deg) brightness(160%);
+  transition: 1s;
+  opacity: 0;
+}
+
+#quantum-effect {
+  margin-bottom: -360px; 
+  margin-top: -180px;
+  transform: rotate(-70deg);
+  opacity: 0;
+  z-index: -1;
+  transition: 2s;
+  filter: brightness(90%);
+}
+
+#quantum-computer-schematic {
+  opacity: 0;
+  z-index: -1;
+  margin-top: 20px;
+  width: 1000px;
+  height: auto;
+}
+
+#secure-messages-info-container {
+  border-radius: 5px;
+  background: #171717;
+  border: 1px solid #333333;
+  width: 750px;
+  min-height: 320px;
+  margin-top: -450px;
+  opacity: 0;
+}
+
+#quantum-computing-problem1-container {
+  border-radius: 5px;
+  background: #171717;
+  border: 1px solid #333333;
+  width: 750px;
+  opacity: 0;
+}
+
+#quantum-computing-problem2-container {
+  border-radius: 5px;
+  background: #171717;
+  border: 1px solid #333333;
+  margin-top: -300px;
+  width: 630px;
+  opacity: 0;
+}
+
+#quantum-computing-solution1-container {
+  border-radius: 5px;
+  background: #171717;
+  border: 1px solid #333333;
+  width: 750px;
+  margin-top: -120px;
+  opacity: 0;
+}
+
+#quantum-computing-solution2-container {
+  border-radius: 5px;
+  background: #171717;
+  border: 1px solid #333333;
+  width: 750px;
+  margin-top: 30px;
+  opacity: 0;
+}
+
+#quantum-cryptography-infographic {
+  border-radius: 5px;
+  margin-top: 30px;
+  width: 450px;
+  height: auto;
+  opacity: 0;
+}
+
+#rsa-factorization-time-container {
+  margin-top: 30px;
+  left: -50px;
+  width: 100%;
+}
+
+#rsa-info-container {
+  border-radius: 5px;
+  background: #171717;
+  border: 1px solid #333333;
+  width: 600px;
+  margin-top: -640px;
+  opacity: 0;
+}
+
+#quantum-computing-info-container {
+  border-radius: 5px;
+  background: #171717;
+  border: 1px solid #333333;
+  width: 600px;
+  opacity: 0;
+  margin-top: -140px;
+}
+
+#introduction-slides-container {
+  margin-top: 50px;
+  margin-left: -100px;
+  height: 350px;
+}
+
+#key-display-container {
+  width: 484px;
+  position: relative;
+  left: calc(50% - 152px);
+  border-radius: 5px;
+  background: #171717;
+  border: 1px solid #333333;
+  padding: 20px 20px 15px 20px;
+}
+
+#column-container {
+  min-width: 50px;
+  flex-direction: column;
+  align-items: center;
+}
+
+#qubit-container {
+  margin-top: -50px;
+  z-index: -1;
+}
+
+#qubit-red {
+  width: 100px;
+  height: 100px;
+  border-radius: 52px;
+  border: 1px solid #c45454;
+  background: #5a2b2b;
+  position: relative;
+  top: 48px;
+  left: 90px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 30px;
+  animation-name: qubit-red-to-blue;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  opacity: 0;
+}
+
+#qubit-blue {
+  width: 100px;
+  height: 100px;
+  border-radius: 52px;
+  border: 1px solid #5757b7;
+  background: #323262;
+  position: relative;
+  top: -55px;
+  left: 170px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 30px;
+  animation-name: qubit-blue-to-red;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  opacity: 0;
+}
+
+/* Animations */
+@keyframes qubit-blue-to-red {
+  0% {
+    border: 1px solid #5757b7;
+    background: #323262;
+  }
+  50% {
+    border: 1px solid #c45454;
+    background: #5a2b2b;
+  }
+  100% {
+    border: 1px solid #5757b7;
+    background: #323262;
+  }
+}
+
+@keyframes qubit-red-to-blue {
+  0% {
+    border: 1px solid #c45454;
+    background: #5a2b2b;
+  }
+  50% {
+    border: 1px solid #5757b7;
+    background: #323262;
+  }
+  100% {
+    border: 1px solid #c45454;
+    background: #5a2b2b;
+  }
+}

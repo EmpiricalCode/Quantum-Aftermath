@@ -1,0 +1,77 @@
+/*////////////////
+//
+// Filename: common.css
+// Author: Daniel Long
+// Course: ICS4U1
+// Description: Contains css reusable on all html pages
+//
+////////////////*/
+
+/* Elements */
+body {
+  background: #141414;
+}
+
+/* Classes */
+.gold-text-gradient-side {
+  background: linear-gradient(90deg, #eee 0%, #dec47c 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.blue-text-gradient-side {
+  background: linear-gradient(90deg, #eee 0%, #7c91de 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-text-gradient {
+  background: linear-gradient(0deg, #eee 0%, #dec47c 90%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.blue-text-gradient {
+  background: linear-gradient(0deg, #eee 0%, #7c91de 90%); 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+}
+
+.red-text-gradient {
+  background: linear-gradient(0deg, #eee 0%, #de7c7c 90%); 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-button {
+  font-family: "Montserrat Light";
+  color: #969696;
+  transition: 1s;
+  font-size: 25px;
+  padding: 0 25px 50px 25px;
+  text-decoration: none;
+}
+
+.footer-button:hover {
+  color: white;
+  cursor: pointer;
+}
+
+/* IDs */
+#footer-container {
+  width: 100%;
+  margin-top: 100px;
+  text-align: center;
+  transition: 1s;
+  opacity: 0;
+}
+
+#content-container {
+  display: flex;
+  justify-content: right;
+  width: 1000px;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: calc(50% - 500px);
+}
