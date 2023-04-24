@@ -37,7 +37,7 @@ var pageContentInfo = [
     "loaded": false
   },
   {
-    "scrollPosition": 2400,
+    "scrollPosition": 2600,
     "className": "quantum-computing-problems-section",
     "loaded": false
   },
@@ -60,5 +60,5 @@ var pageContentInfo = [
 
 // Functions
 function scrollToTop() {
-  window.scrollTo({top: 0, behavior: 'smooth'});
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
