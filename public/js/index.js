@@ -3,7 +3,7 @@
 // Filename: index.js
 // Author: Daniel Long
 // Course: ICS4U1
-// Description: Contains relevant page content information and functions for index.html
+// Description: Contains relevant page content metadata and functions for index.html
 //
 ///////////////////
 

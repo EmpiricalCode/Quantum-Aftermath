@@ -4,6 +4,7 @@
      // Author: Daniel Long 
      // Course: ICS4U1
      // Description: Contains the html for the main page 
+     // Challenge Features: Hover effects, element that scrolls down with the screen, meaningful use of javascript
      // 
      /////////////////// -->
 
@@ -22,7 +23,7 @@
   </head>
   
   <body>
-    <!--   Contains all the content of the webpage in a 1000px side centered div element just so I don't have to worry about content scaling   -->
+    <!--   Contains all the content of the webpage in a 1000px wide centered div element just so content scaling is simpler   -->
     <div id="content-container">
       
       <!--    Contains all the "scrollbar" content (lines, icons)    -->
@@ -196,13 +197,13 @@
           The Problem 
         </p>
         <p style="margin-bottom: 50px; line-height: 25px;" class="quantum-computing-problems-section subheading" data-animation-delay="900" data-animation-type="fade-in-left">
-          Quantum computers are able to very efficiently implement Shor’s algorithm, an algorithm for finding the prime factors of an integer. This directly threatens not just RSA, but the many asymmetric encryption algorithms today that rely on the fact that finding the prime factors of a very large semiprime is nigh-impossible. Worryingly, some of these algorithms are very much still in use.
+          Quantum computers are able to very efficiently implement Shor’s algorithm, an algorithm for finding the prime factors of an integer. This directly threatens not just RSA, but the many asymmetric encryption algorithms today that rely on the fact that prime factorization for a very large semiprime is nigh-impossible. Worryingly, some of these algorithms are very much still in use.
         </p>
 
         <div id="quantum-computing-problem1-container" class="quantum-computing-problems-section" data-animation-delay="1100" data-animation-type="fade-in-left">
           <p class="slide-title red-text-gradient">The end of online security?</p>
           <p class="slide-subtitle">
-            The same RSA-2048 algorithm that boasted a 300 trillion year breaking time on a classical computer would be steamrolled by a quantum computer with just 4099 stable qubits in around 10 seconds. Due to the prevalence of asymmetric encryption over the internet, hackers and other malicious parties would have unprecidented access to your sensitive online information. 
+            The same RSA-2048 algorithm that boasted a 300 trillion year breaking time on a classical computer would be steamrolled by a quantum computer, with just 4099 stable qubits, in around 10 seconds. Due to the prevalence of asymmetric encryption over the internet, hackers and other malicious parties would have unprecidented access to your sensitive online information. 
           </p>
         </div>
 

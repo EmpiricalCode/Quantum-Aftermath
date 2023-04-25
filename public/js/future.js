@@ -3,7 +3,7 @@
 // Filename: future.js
 // Author: Daniel Long
 // Course: ICS4U1
-// Description: Contains relevant page content information for future.html
+// Description: Contains relevant page content metadata for future.html
 //
 ///////////////////
 

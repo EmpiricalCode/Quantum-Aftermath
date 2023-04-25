@@ -11,8 +11,8 @@
 // Plays an animation for an element
 function playAnimation(elements, i) {
   
-  // Offsetting the element left or right based initially on if
-  // it is supposed to fade in right or left
+  // Offsetting the element left or right initially based on if
+  // it is supposed to fade in right or fade in left
   if (elements[i].dataset.animationType == "fade-in-left") {
  
     elements[i].style.transition = "none";
@@ -50,7 +50,7 @@ function playAnimation(elements, i) {
   }, elements[i].dataset.animationDelay)
 }
 
-// Plays the loading animations for all loaded content
+// Plays the loading animations for all unloaded content that should be loaded
 function updateContents() {
   
   var top = window.pageYOffset || document.documentElement.scrollTop;

@@ -3,7 +3,7 @@
 // Filename: sources.js
 // Author: Daniel Long
 // Course: ICS4U1
-// Description: Contains relevant page content information for sources.html
+// Description: Contains relevant page content metadata for sources.html
 //
 ///////////////////
 
